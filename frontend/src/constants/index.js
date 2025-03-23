@@ -2,15 +2,18 @@ import { send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
+    id: "home",
     link: "/",
     title: "Home",
   },
   {
+    id: "features",
     link: "/#features",
     title: "Features",
   },
   {
-    link: "/product",
+    id: "product",
+    link: "/products",
     title: "Product",
   },
 ];
