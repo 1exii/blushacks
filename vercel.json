@@ -13,15 +13,15 @@
       },
       {
         "src": "/product",
-        "dest": "/Product.jsx"
+        "dest": "/src/Product"
       },
       {
         "src": "/product/(.*)",
-        "dest": "/Product.jsx"
+        "dest": "/src/Product"
       },
       {
         "src": "/",
-        "dest": "/Home.jsx"
+        "dest": "/src/Home"
       }
     ]
   }
